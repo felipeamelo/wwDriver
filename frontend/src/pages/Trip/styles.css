@@ -1,0 +1,192 @@
+.trip-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trip-container .content {
+    width: 100%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trip-container .content section {
+    width: 100%;
+    max-width: 330px;
+}
+
+.trip-container .content section h1 {
+    color: #F3470E;
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+
+.trip-container .content section p {
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+
+.trip-container .content form {
+    width: 100%;
+    max-width: 550px;
+}
+
+.trip-container .content form textarea {
+    margin-top: 8px;
+}
+
+.trip-container .content form .input-group {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.trip-container .content form .input-group input {
+    margin-bottom: 12px;
+    width: 98%;
+    height: 90%;
+}
+
+.trip-container .content form .input-group .select {
+    font-size: 15px;
+    margin-right: 5px;
+    width: 100%;
+}
+
+.trip-container .content form .input-group .select + .select {
+    margin-right: 0;
+}
+
+.trip-container .content form .input-group-2 {
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.trip-container .content form .input-group-3 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #003138df;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.trip-container .content form .input-group-3 strong {
+    padding: 8px 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff !important;
+    font-size: 16px;
+}
+
+.trip-container .content form .input-group-4 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 5px;
+}
+
+.trip-container .content form .input-group-4 label {
+    padding: 15px 30px 15px 30px;
+    width: 100%;
+    height: 100%;
+    text-align:left;
+    font-size: 15px;
+}
+
+.trip-container .content form .input-group-4 strong {
+    padding: 18px 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.trip-container .content form .input-group-4 input {
+    margin-top: 4px     !important;
+    margin-bottom: 12px !important;
+    font-size: 15px     !important;
+    padding: 0px 10px   !important;
+    width: 98%          !important;
+}
+
+.trip-container .content form .input-group-4 .select {
+    margin-top: 4px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    width: 98%;
+}
+
+.trip-container .content form .input-group-4 .select + .select {
+    margin-top: 4px;
+    width: 100% !important;
+}
+
+.trip-container .content form .input-group-5 {
+    display:grid;
+    grid-template-columns: 30% 70%;
+    border-radius: 5px;
+}
+
+.trip-container .content form .input-group-5 input {
+    margin-top: 2px;
+    margin-bottom: 4px !important;
+    margin-left: 5px;
+    font-size: 15px;
+    padding: 10px 10px;
+    width: 98%;
+    height: 90%;
+}
+
+.trip-container .content form .input-group-5 .select {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    font-size: 15px;
+    width: 98%;
+    height: 90%;
+}
+
+.trip-container .content form .input-group-5 strong {
+    padding: 8px 0;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    color: #fff !important;
+    font-size: 16px;
+    background: #003138df;
+    padding: 10px 10px;
+    border-radius: 5px;
+    height: 90%;
+    margin-top: 2px;
+}
+
+.trip-container .content form .grupo-cbox {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    align-items: center;
+}
+
+.trip-container .content form .grupo-cbox label {
+    height: 30px !important;
+    padding: 0;
+    margin: 0;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+.trip-container .content form .grupo-cbox input {
+    height: 20px !important;
+    padding: 0;
+    margin: 0;
+}

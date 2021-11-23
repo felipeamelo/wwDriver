@@ -1,0 +1,112 @@
+.car-container {
+    width: 100%;
+    max-width: 1120px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.car-container .content {
+    width: 100%;
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car-container .content section {
+    width: 100%;
+    max-width: 330px;
+}
+
+.car-container .content section h1 {
+    color: #F3470E;
+    margin: 64px 0 32px;
+    font-size: 32px;
+}
+
+.car-container .content section p {
+    font-size: 18px;
+    color: #737380;
+    line-height: 32px;
+}
+
+.car-container .content form {
+    width: 100%;
+    max-width: 550px;
+}
+
+.car-container .content form textarea {
+    margin-top: 8px;
+}
+
+.car-container .content form .input-group {
+    display: flex;
+}
+
+.car-container .content form .input-group input {
+    margin-top: 8px;
+}
+
+.car-container .content form .input-group input + input {
+    margin-left: 8px;
+}
+
+.car-container .content form .group-insp-rev {
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.car-container .content form .input-group-dt {
+    display:grid;
+    grid-template-columns: 30% 35% 35%;
+    border-radius: 5px;
+}
+
+.car-container .content form .input-group-dt label {
+    padding: 15px 30px 15px 30px;
+    width: 100%;
+    height: 100%;
+    text-align:left;
+    font-size: 15px;
+}
+
+.car-container .content form .input-group-dt strong {
+    padding: 18px 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.car-container .content form .input-group-dt input {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 15px;
+    padding: 10px 10px;
+    width: 98%;
+    height: 90%;
+}
+
+.car-container .content form .cabec-grupo {
+    display:grid;
+    grid-template-columns: 1fr;
+    background: #003138df;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+
+.car-container .content form .cabec-grupo strong {
+    padding: 8px 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: #fff !important;
+    font-size: 16px;
+}

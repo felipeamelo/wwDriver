@@ -1,0 +1,397 @@
+/*----------------------------------------------------------*/
+/* PROFILE CONTAINER */
+/*----------------------------------------------------------*/
+.profile-container {
+    width: 100%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+
+
+/*----------------------------------------------------------*/
+/* HEADER */
+/*----------------------------------------------------------*/
+.profile-container header {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.profile-container header span {
+    font-size: 20px;
+    margin-left: 24px;
+}
+
+.profile-container header img {
+    height: 80px;
+}
+
+.profile-container header a {
+    width: 150px;
+    margin-left: auto;
+    margin-top: 0;
+}
+
+.profile-container header a + a {
+    margin-left: 16px;
+}
+
+.profile-container header button {
+    height: 60px;
+    width: 60px;
+    border-radius: 4px;
+    border: 1px solid #dcdce6;
+    background: transparent;
+    margin-left: 16px;
+    transition: border-color 0.2s;
+}
+
+.profile-container header button:hover {
+    border-color: #999;
+}
+
+
+
+/*----------------------------------------------------------*/
+/* H1 */
+/*----------------------------------------------------------*/
+.profile-container h1 {
+    color: #F3470E;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 24px;
+}
+
+
+
+/*----------------------------------------------------------*/
+/* UL */
+/*----------------------------------------------------------*/
+.profile-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+    list-style: none;
+}
+
+.profile-container ul li {
+    background: #FFF;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.profile-container ul li .btnDelete {
+    background: transparent;
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    border: 0;
+}
+
+.profile-container ul li .btnEdit {
+    background: transparent;
+    position: absolute;
+    right: 24px;
+    top: 54px;
+    border: 0;
+}
+
+.profile-container ul li .btnKey {
+    background: transparent;
+    position: absolute;
+    right: 24px;
+    top: 84px;
+    border: 0;
+}
+
+.profile-container ul li .btnViagens {
+    background: transparent;
+    position: absolute;
+    right: 24px;
+    top: 114px;
+    border: 0;
+}
+
+.profile-container ul li button:hover{
+    opacity: 0.8;
+}
+
+.profile-container ul li strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #41414d;
+}
+
+.profile-container ul li p + strong {
+    margin-top: 30px;
+}
+
+.profile-container ul li p {
+    color: #737380;
+    line-height: 21px;
+    font-size: 16px;
+}
+
+
+
+/*----------------------------------------------------------*/
+/* MENU */
+/*----------------------------------------------------------*/
+.profile-container .menu {
+    display: flex;
+    align-items: center;
+
+}
+
+.profile-container .menu a {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.profile-container .menu a + a {
+    margin-left: 40px;
+}
+
+
+
+/*----------------------------------------------------------*/
+/* GRUPO DADOS CAR */
+/*----------------------------------------------------------*/
+.profile-container ul li .grupo-dados-bkp {
+    display: inline-table;
+    padding-right: 60px;
+    padding-bottom: 24px;
+}
+
+
+/*----------------------------------------------------------*/
+/* GRUPO DADOS CAR */
+/*----------------------------------------------------------*/
+.profile-container ul li .grupo-dados {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.profile-container ul li .grupo-dados strong {
+    margin-top: 15px;
+}
+
+/*----------------------------------------------------------*/
+/* GRUPO DADOS GRUPO */
+/*----------------------------------------------------------*/
+.profile-container ul li .grupo-dados3 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #003138df;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+.profile-container ul li .grupo-dados3 strong {
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/*----------------------------------------------------------*/
+/* GRUPO DADOS USER */
+/*----------------------------------------------------------*/
+.profile-container ul li .grupo-dados-chk {
+    display: grid;
+    grid-template-columns: 3% 95%;
+}
+
+.profile-container ul li .grupo-dados-chk strong {
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.profile-container ul li .grupo-dados-chk input {
+    padding: 0;
+    margin: 0;
+    margin-top: 12px;
+}
+
+/*----------------------------------------------------------*/
+/* GRUPO DATAS */
+/*----------------------------------------------------------*/
+.profile-container ul li .grupo-datas {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.profile-container ul li .grupo-datas p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.profile-container ul li .grupo-datas strong {
+    padding: 0;
+    margin: 0;
+    padding-top: 2px;
+}
+
+.profile-container ul li .grupo-datas .grupo-datas-bg {
+    background-color: #f9f9f9;
+}
+
+/*----------------------------------------------------------*/
+/* GRUPO DATAS */
+/*----------------------------------------------------------*/
+.profile-container ul li:nth-child(n) ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-container ul li:nth-child(n) ul li {
+    position: relative;
+    width: 100% !important;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-container ul li:nth-child(n) ul li .grupo-datas-2 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-container ul li:nth-child(n) ul li .grupo-datas-2 p {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+
+/*----------------------------------------------------------*/
+/* GRUPO DT CABEC */
+/*----------------------------------------------------------*/
+.profile-container ul li .grupo-dt-cabec {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #003138df;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+.profile-container ul li .grupo-dt-cabec strong {
+    text-align: center;
+    color: #fff;
+}
+
+/*----------------------------------------------------------*/
+/* GRUPO DT CABEC */
+/*----------------------------------------------------------*/
+.profile-container ul li .grupo-user-cabec {
+    display:grid;
+    grid-template-columns: 20% 60% 20%;
+    background: #003138df;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+.profile-container ul li .grupo-user-cabec strong {
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+/*----------------------------------------------------------*/
+/* GRUPO DADOS TRIP 1 */
+/*----------------------------------------------------------*/
+.profile-container ul li .grupo-trip-1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.profile-container ul li .grupo-trip-1 strong {
+    margin-top: 15px;
+}
+
+
+/*----------------------------------------------------------*/
+/* GRUPO DADOS TRIP 3a - CABEC */
+/*----------------------------------------------------------*/
+.profile-container ul li .grupo-trip-3a {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: #003138df;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+.profile-container ul li .grupo-trip-3a strong {
+    text-align: center;
+    color: #fff;
+}
+
+/*----------------------------------------------------------*/
+/* GRUPO DADOS TRIP 3b - ITENS */
+/*----------------------------------------------------------*/
+.profile-container ul li .grupo-trip-3b {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.profile-container ul li .grupo-trip-3b p {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.profile-container ul li .grupo-trip-3b strong {
+    padding: 0;
+    margin: 0;
+}
+
+/*----------------------------------------------------------*/
+/* GRUPO DADOS TRIP 4a */
+/*----------------------------------------------------------*/
+.profile-container ul li .grupo-trip-4a {
+    display:grid;
+    grid-template-columns: 30% 70%;
+}
+
+.profile-container ul li .grupo-trip-4a strong {
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    background: #003138df;
+    padding: 7px 15px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.profile-container ul li .grupo-trip-4a p {
+    padding: 0;
+    margin: 0;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 3px;
+}

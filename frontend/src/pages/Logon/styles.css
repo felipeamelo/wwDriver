@@ -1,0 +1,38 @@
+.logon-container {
+    width: 100%;
+    max-width: 1120px;
+
+    margin: 3.5% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    /*
+        height: 100vh;
+    */
+
+    padding: 96px;
+    background: #f0f0f5;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.logon-container section.form {
+    width: 100%;
+    max-width: 350px;
+    margin-right: 30px;
+}
+
+.logon-container section.form form {
+    margin-top: 100px;
+}
+
+.logon-container section.form form h1 {
+    color: #F3470E;
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+
+.logon-container section.form input {
+    margin-top: 8px;
+}

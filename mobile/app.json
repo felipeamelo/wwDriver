@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "WW Driver",
+    "slug": "wwDriver",
+    "sdkVersion": "42.0.0",
+    "privacy": "public",
+    "platforms": ["ios", "android"], 
+    "version": "2.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle" : "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "infoPlist": {"CFBundleExecutable": "ExpoKitApp"},
+      "supportsTablet": true,
+      "bundleIdentifier": "com.weekendwings.wwdriver",
+      "buildNumber": "2.0.0"
+    },
+    "android": {
+      "package": "com.weekendwings.wwdriver",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
